@@ -1,12 +1,12 @@
 <%- include head %>
-	<div class="login">
+	<div class="user">
 	 	<input type="text" name="username" v-model="username" placeholder="请输入用户名">
 	 	<br>
 	 	<input type="password" name="password" v-model="password" placeholder="请输入密码">
 	 	<br>
 	 	<div class="btn">
-	 		<input type="button" v-on:click="login" value="登录">
-	 		<input type="button" v-on:click="toReg" value="注册">
+	 		<input type="button" v-on:click="submit('login')" value="登录">
+	 		<input type="button" v-on:click="to('login')" value="注册">
 	 	</div>
 	</div>
 <%- include foot %>

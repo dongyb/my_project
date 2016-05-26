@@ -1,6 +1,6 @@
 //随时更新 如果我还在学这玩意的话 //项目名暂定为resetNode 预计使用nodejs+vue.js+mongodb
 //感谢cnode的教程 
 //暂时先完成登录注册 发表文章与文章评论
-//完成进度注册
+//登陆注册完成 发表文章开始
 express在4.x版本将express与express-generator分割 因此express不需全局安装而express-generator需全局安装 命令并无太大差别
 新建命令无差别 express xxxx -e //-e 为选择所用的模板引擎

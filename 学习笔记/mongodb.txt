@@ -1,3 +1,4 @@
+mongod --dbpath ./xxxx
 use XXX //创建项目数据库
 db.createCollection("xxxx") //创建一个名为XXX集合，也就是表
 db.xxxx.insert({userid: "xxxx", password: "xxx"}) //给xxxx里添加一条数据
